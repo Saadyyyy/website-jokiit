@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-40px); /* Naik 20px ke atas */
+    }
+  }
+  
+  .bounce {
+    animation: bounce 3s infinite;
+  }
+  
+  .animated-text {
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+    /* line-height: 46px; */
+    display: inline-block;
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 4rem; 
+  }
+  
+  .blink {
+    display: inline-block;
+    width: 8px;
+    height: 36px;
+    background-color: white;
+    margin-left: 5px;
+    animation: blink 1s step-end infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      background-color: transparent;
+    }
+  }
+  
+  .ellipse1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    /* z-index: 1; */
+    opacity: 0.5;
+    filter: blur(50px);
+    color: white;
+    object-fit: cover;
+  }
+
+.ellipse2{
+    object-fit: cover;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0.5;
+    position: absolute;
+    filter: blur(50px);
+    width: 600px;
+}
+  

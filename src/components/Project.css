@@ -1,0 +1,78 @@
+.project-section {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; Mengisi layar penuh */
+    margin: 135px;
+    /* background-color: #1c1124; Latar belakang gelap sesuai desain */
+    flex-direction: column;
+    margin-top: 150px;
+    position: relative;
+    z-index: 10;
+    /* overflow: hidden; */
+    margin-bottom: -10px;
+  }
+  
+  .project-card {
+    position: relative;
+    width: 410px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Efek bayangan lembut */
+    text-align: center;
+    outline: 2px solid #fff;
+    z-index: 20;
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 20px;
+    outline: 2px solid #fff;
+  }
+  
+  .project-title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    z-index: 40;
+  }
+  
+  .project-section-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+  .project-text{
+    /* display: flex; */
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    z-index: 20;
+  }
+  
+  /* .project-ellipse{
+      object-fit: cover;
+      position: absolute;
+      /* bottom: 0; Posisikan ellipse di bawah */
+      /* left: 50%; */
+      /* transform: translateX(-50%); */
+      /* width: 100%; Ukuran ellipse sesuai contoh */
+      /* z-index: 1; */
+      /* opacity: 0.5; */
+      /* filter: blur(50px); */
+
+.project-ellipse{
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  height: 1300px;
+  filter: blur(50px);
+  opacity: 0.5;
+}
