@@ -68,6 +68,16 @@
 
 /* Responsif untuk perangkat kecil */
 @media (max-width: 767px) {
+  .Navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(90deg, #231031, #190b23, #000);
+    color: white;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+  }
   .Navbar-menu {
     display: none;
     flex-direction: column;

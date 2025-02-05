@@ -41,10 +41,10 @@ export const Banner = () => {
             setLineIndex(0);
             setCharIndex(0);
             setIsWaiting(false);
-          }, 5000); // Delay 3 detik sebelum reset
+          }, 7000); // Delay 3 detik sebelum reset
         }
       }
-    }, 20); // Kecepatan per huruf
+    }, 30); // Kecepatan per huruf
 
     return () => clearInterval(interval);
   }, [charIndex, lineIndex, isWaiting]);
