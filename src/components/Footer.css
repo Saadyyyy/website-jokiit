@@ -37,3 +37,32 @@
     font-family: 'Lato', sans-serif;
     font-size: 16px;
   }
+
+  @media (max-width: 767px) {
+    .footer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0;
+      background: linear-gradient(90deg, #000, #190b23, #231031);
+      padding: 20px 40px;
+    }
+    .social-icon {
+      width: 28px;
+      height: 28px;
+      padding: 0;
+      border-radius: 50%;
+      transition: transform 0.3s ease;
+      align-items: start;
+      justify-content: center;
+    }
+    .footer-content{
+      display: contents;
+    }
+    .footer-copyright {
+      font-family: 'Lato', sans-serif;
+      font-size: 12px;
+      text-align: center;
+    }
+  }

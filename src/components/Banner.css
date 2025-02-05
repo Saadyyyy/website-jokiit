@@ -3,6 +3,66 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+/* =========================== Banner ===========================*/
+.banner{
+  padding-top: 170px;
+  outline: #190b23;
+  color: #fff;
+  flex-wrap: wrap;
+}
+.banner-container{
+  margin-left: 130px;
+  margin-right: 100px;
+  display: flex;
+  
+  justify-content: space-between;
+  
+  
+}
+.banner-image{
+  margin-right:  35px;
+  z-index: 10;
+}
+.banner-image-i{
+  width: 600px;
+  height: 579px;
+  padding-left: 20px;
+  z-index: 10;
+}
+.banner-text {
+  padding-top: 25px;
+  line-height: 2; /* Mengatur line-height global */
+  z-index: 10;
+
+}
+
+.banner-text-small {
+  font-size: 26px;
+  line-height: 36px;
+  margin-bottom: 5px;
+  
+}
+.banner-text-order{
+  padding-top: 50px;
+  /* font-size:20px; */
+  font-weight: bold;
+}
+
+.banner-text-order a{
+  text-decoration: none;
+  color: white;
+  background-color: #6B3196;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 100px;
+  transition: color 0.3s ease;
+
+}
+
+.banner-text-order a:hover{
+  color: #a855f7;
+
+}
 
 @keyframes bounce {
     0%, 100% {
@@ -49,7 +109,7 @@ body {
     left: 0;
     height: 100%;
     object-fit: cover;
-    /* z-index: 1; */
+    z-index: 1;
     opacity: 0.5;
     filter: blur(50px);
     color: white;
@@ -67,3 +127,85 @@ body {
     width: 600px;
 }
   
+
+/* ==================== RESPONSIVE SETTINGS FOR MOBILE ==================== */
+@media (max-width: 766px) {
+  .banner {
+    /* padding-top: 90px; */
+    align-items: center;
+    /* padding: 90px; */
+    padding-right: 20px;
+    margin-bottom: -70px;
+  }
+
+  .banner-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .banner-image-i {
+    margin-top: -50px;
+    width: 230px;
+    height: auto;
+  }
+  .banner-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .animated-text {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.5;
+    /* margin-bottom: 10px; */
+  }
+
+  .banner-text-small {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .banner-text-order a {
+    padding: 12px 20px;
+    background-color: #6b3196;
+    border-radius: 30px;
+    margin-top: 20px;
+  }
+
+  .ellipse1,
+  .ellipse2 {
+    display: none;
+  }
+  .banner-text-order{
+    /* padding-top: 50px; */
+    font-size:16px;
+    font-weight: bold;
+    margin-top: -40px;
+  }
+
+  .banner-text-order a{
+    text-decoration: none;
+    color: white;
+    background-color: #6B3196;
+    padding: 10 20;
+    margin-top: 20px;
+    border-radius: 100px;
+    transition: color 0.3s ease;
+  
+  }
+  
+  .banner-text-order a:hover{
+    color: #a855f7;
+  
+  }
+}

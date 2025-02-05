@@ -1,10 +1,10 @@
-import "./Banner.css";
+import "./About.css";
 
 export const About = () => {
   return (
     <div className="about">
       <div className="about-title">
-        <p>Kenapa Harus JOKI IT ?</p>
+        <p>Kenapa Harus Joki IT ?</p>
       </div>
       <br />
       <div className="about-card">

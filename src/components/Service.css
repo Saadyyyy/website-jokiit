@@ -1,0 +1,135 @@
+/* =========================== Service ===========================*/
+.service{
+    color: white;
+    /* margin: 100px; */
+    text-align: center;
+  }
+  
+  .service-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    z-index: 5;
+    margin-top: 150px;
+    margin-bottom: -50px;
+    position: relative;
+    font-weight: 800;
+  }
+  
+  .service-row-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  
+  }
+  .service-row-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -23px;
+  }
+  
+  .icon{
+    width: 100px;
+    height: 100px;
+  }
+  
+  .icon-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+  }
+  .icon-a-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+  }
+  .icon-a-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin-left: -45px
+  }
+  .icon-a-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    margin-left: -20px
+  }
+  
+  .service-ellipse{
+    object-fit: cover;
+    position: absolute;
+    /* top: 400;
+    left: 0;
+    height: 100%; */
+    width: 100%;
+  }
+  
+  @media (max-width: 767px) {
+    .service{
+        /* align-items: center;
+        justify-content: space-between;
+        width: 20px; */
+        /* width: 20px; */
+        padding: 40px;
+    }
+    .icon{
+        width: 50px;
+        height: 50px;
+    }
+    .service-row-1{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+
+        margin-bottom: 27px;
+      }
+
+   .service-row-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 17px;
+   }
+
+    .icon-a{
+        font-size: 15px;
+      }
+
+       .icon-a-1{
+        font-size: 15px;
+        margin-left: -10px;
+      }
+      .icon-a-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        margin-left: -35px;
+
+      }
+      .icon-a-3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 15px;
+        margin-right: -3px;
+      }
+
+      .service-title{
+        font-size: 24px;
+        z-index: 5;
+        /* margin-top: 150px; */
+        margin-bottom: -70px;
+        position: relative;
+        font-weight: 800;
+      }
+}
