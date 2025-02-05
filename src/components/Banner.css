@@ -206,14 +206,14 @@ body {
   }
   .ellipse1{
     position: absolute;
-    top: 20px;
+    top: 50px;
     left: 0;
     width: 80%;
     height: 30%;
     object-fit: cover;
     z-index: 1;
-    opacity: 1;
-    filter: blur(6px);
+    opacity: 0.7;
+    filter: blur(20px);
     color: white;
     object-fit: cover;
   }
@@ -223,7 +223,7 @@ body {
     top: 300px;
     right: 0;
     z-index: 1;
-    opacity: 1;
+    opacity: 0.6;
     position: absolute;
     filter: blur(20px);
     width: 40%;
