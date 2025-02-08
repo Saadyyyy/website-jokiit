@@ -23,10 +23,10 @@ export const NavBar = () => {
         </div>
 
         <div className={`Navbar-menu ${isOpen ? "open" : ""}`}>
-          <a href="">Beranda</a>
-          <a href="">Tentang Kami</a>
-          <a href="">Layanan</a>
-          <a href="">Project</a>
+          <a href="#banner">Beranda</a>
+          <a href="#about">Tentang Kami</a>
+          <a href="#service">Layanan</a>
+          <a href="#project">Project</a>
           <div className="menu-order">
             <a target="_blank" href="https://wa.me/6287817649178?text=Halo kak saya mau joki di JOKI IT!!">
               Hubungi Kita

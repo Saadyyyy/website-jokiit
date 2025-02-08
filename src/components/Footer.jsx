@@ -8,13 +8,13 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-icons">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/jokiit_com/" target="_blank" rel="noopener noreferrer">
             <img src={instagramIcon} alt="Instagram" className="social-icon" />
           </a>
           <a href="tel:+123456789" target="_blank" rel="noopener noreferrer">
             <img src={phoneIcon} alt="Phone" className="social-icon" />
           </a>
-          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.tiktok.com/@jokiit.com" target="_blank" rel="noopener noreferrer">
             <img src={tiktokIcon} alt="Tiktok" className="social-icon" />
           </a>
         </div>

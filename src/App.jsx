@@ -1,10 +1,10 @@
 import './App.css'
-import { About } from './components/About.jsx'
-import { Banner } from './components/Banner.jsx'
-import { Footer } from './components/Footer.jsx'
-import { NavBar } from './components/NavBar.jsx'
-import { Project } from './components/Project.jsx'
-import { Service } from './components/Service.jsx'
+import { About } from './components/About'
+import { Banner } from './components/Banner'
+import { Footer } from './components/Footer'
+import { NavBar } from './components/NavBar'
+import { Project } from './components/Project'
+import { Service } from './components/Service'
 
 function App() {
 
@@ -12,11 +12,23 @@ function App() {
   return (
     <div className="">
       <NavBar/>
+      <section id='banner'>
       <Banner/>
-      <About/>
-      <Service/>
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id='service'>
+        <Service/>
+      </section>
+      <section id='project'>
       <Project/>
+        
+        </section>
+      <section id='footer'>
       <Footer/>
+        
+        </section>
     </div>
   )
 }
