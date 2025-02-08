@@ -37,7 +37,7 @@ body {
 }
 
 .banner-text-small {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 36px;
   margin-bottom: 5px;
   
@@ -78,7 +78,7 @@ body {
   }
   
   .animated-text {
-    font-size: 46px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     /* line-height: 46px; */
